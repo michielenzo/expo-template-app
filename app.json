@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TemplateApp",
-    "slug": "TemplateApp",
+    "name": "ExpoTemplateApp",
+    "slug": "ExpoTemplateApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.michielenzo.ExpoTemplateApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "04d9fe49-fa43-4867-b092-059c57411f01"
+      }
+    },
+    "owner": "michielenzo"
   }
 }
