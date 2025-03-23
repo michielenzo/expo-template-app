@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ExpoTemplateApp",
-    "slug": "ExpoTemplateApp",
+    "name": "expo-template-app",
+    "slug": "expo-template-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.michielenzo.ExpoTemplateApp"
+      "package": "com.michielenzo.expo-template-app"
     },
     "web": {
       "bundler": "metro",
